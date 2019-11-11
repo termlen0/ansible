@@ -44,6 +44,7 @@ notes:
       but not the current host variable it creates for the current run.
     - Looping on meta tasks is not supported.
     - This module is also supported for Windows targets.
+    - Meta tasks always run. Even if the play is skipped (using tags)
 seealso:
 - module: assert
 - module: fail
